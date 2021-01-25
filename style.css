@@ -1,0 +1,273 @@
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    color: #6c7279;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1 h2 h3 h4 h5 h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+
+/*container */
+
+.container {
+    max-width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+
+/*header */
+
+.header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: #007765;
+    ;
+}
+
+.header__inner {
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/*Nav */
+
+.nav {
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.nav__link {
+    color: #fff;
+    text-decoration: none;
+    opacity: .75;
+    transition: opacity .1s linear;
+}
+
+.nav__link:hover {
+    opacity: 1;
+}
+
+
+/*INTRO */
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 403px;
+    padding-top: 84px;
+    background: #007765 url(img/image.png);
+}
+
+.intro__inner {
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+}
+
+.intro__tittle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 72px;
+    font-weight: 550;
+    color: #fff;
+    text-align: center;
+}
+
+
+/*PROBLEM */
+
+.prob {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 719px;
+    background-color: #eee;
+}
+
+.prob_subttile {
+    font-weight: 500;
+    font-size: 64px;
+    color: #007765;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 0 16px;
+}
+
+.prob_inner {
+    font-size: 32px;
+    line-height: 37px;
+    padding-top: 30px;
+    margin-left: 55px;
+    margin-right: 54px;
+    color: #000;
+}
+
+.prob_inner--first {
+    font-size: 32px;
+    line-height: 37px;
+    padding-top: 0;
+    margin-left: 55px;
+    margin-right: 54px;
+    color: #000;
+}
+
+
+/*HERO */
+
+.hero {
+    padding-top: 128px;
+    padding-bottom: 128px;
+    width: 100%;
+    background-image: url(img/image-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 483px;
+}
+
+.hero__message {
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #fff;
+}
+
+
+/*PPC */
+
+.ppc {
+    display: flex;
+    height: 604px;
+}
+
+.ppc__subtittle {
+    font-weight: 500;
+    font-size: 64px;
+    color: #007765;
+    text-align: center;
+    margin: 0 auto;
+    padding: 48px 0 16px;
+}
+
+.ppc__img {
+    float: left;
+    margin-right: 48px;
+}
+
+.ppc__mess {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+    padding-top: 30px;
+}
+
+.ppc__messi {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+    padding-top: 0;
+}
+
+
+/*The Team */
+
+.team {
+    position: relative;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 845px;
+    background-color: #eee;
+}
+
+.team_subtittle {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    line-height: 75px;
+    font-weight: 500;
+    font-size: 64px;
+    color: #007765;
+    text-align: center;
+    margin: 0 auto;
+    padding: 48px 0 32px;
+}
+
+.card {
+    width: 350px;
+    height: 283px;
+    text-align: center;
+    display: inline-block;
+    flex-basis: 33%;
+
+}
+
+.name {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #007765;
+    margin-bottom: 0;
+}
+
+.prof {
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+
+/*Bottom */
+
+.bottom {
+    background: #333333;
+    height: 176px;
+    padding-top: 50px;
+}
+
+.bottom__sub {
+    width: 540px;
+    height: 64px;
+    margin:auto;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
